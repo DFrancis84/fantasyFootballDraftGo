@@ -1,7 +1,7 @@
 package migrate
 
 import (
-	"github.com/fantasyFootballDraftGo/internal/db/migrate/models"
+	"github.com/DFrancis84/fantasyFootballDraftGo/internal/db/migrate/models"
 	"github.com/jinzhu/gorm"
 )
 

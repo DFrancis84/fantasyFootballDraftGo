@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/fantasyFootballDraftGo/internal/db/migrate/models"
+	"github.com/DFrancis84/fantasyFootballDraftGo/internal/db/migrate/models"
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
 )
@@ -32,7 +32,6 @@ func (api *RESTAPI) createPick(w http.ResponseWriter, r *http.Request) {
 	api.DB.Create(&pick)
 	w.WriteHeader(http.StatusAccepted)
 }
-
 func (api *RESTAPI) getPicks(w http.ResponseWriter, r *http.Request) {
 	var picks []*models.Pick
 	query := r.URL.Query()

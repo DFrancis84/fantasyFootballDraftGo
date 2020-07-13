@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/fantasyFootballDraftGo/internal/db/migrate"
-	"github.com/fantasyFootballDraftGo/internal/restapi"
+	"github.com/DFrancis84/fantasyFootballDraftGo/internal/db/migrate"
+	"github.com/DFrancis84/fantasyFootballDraftGo/internal/restapi"
 	"github.com/jinzhu/gorm"
 
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
